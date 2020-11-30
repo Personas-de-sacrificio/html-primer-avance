@@ -1,0 +1,76 @@
+body {
+    background: rgb(18,20,23);
+    color: #fff;
+    font-weight: 300;
+}
+header#titular {
+                min-height: 100vh;
+                color: #fff;
+                background-color: #000;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-position: center top;
+                background-size: 100% auto;
+            }
+@media (min-width: 768px) {
+                header#titular {
+                    background-image: url("img/cover.jpg");
+                }
+            }
+header#titular div.container {
+                height: 100vh;
+            }
+
+header#titular h1 {
+                color:rgba(255,255,255,1); 
+            }
+
+header#titular h2 {
+                color:rgba(255,255,255,0.8);
+            }
+h1 {
+    font-family: "Bitter", serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.3rem;
+    }
+}
+h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+h6 span {
+    font-weight: 300;
+}
+h2 {
+    font-family: "Bitter", serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+
+p.lead {
+    font-family: "Bitter", serif;
+    font-weight: 500;
+}
+@media (max-width: 992px) {
+    p.lead {
+        text-align: center;
+    }
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
